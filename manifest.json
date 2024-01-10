@@ -1,0 +1,26 @@
+{
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_action": {
+    "default_icon": "icon-128.png",
+    "default_title": "ReCss"
+  },
+  "name": "ReCss",
+  "description": "Force reload all CSS files without reloading the page.",
+  "homepage_url": "https://github.com/caliguIa/ReCSS",
+  "icons": {
+    "16": "icon-16.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  },
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "version": "0.1",
+  "manifest_version": 3
+}
